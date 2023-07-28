@@ -8,3 +8,6 @@ tip_calc = round((((bill_total * tip_percentage) + bill_total) / bill_split), 2)
 amount_to_pay = str(tip_calc)
 
 print("Each person should pay: $" + amount_to_pay)
+
+#Alternatively, can use an f-String like below:
+#print(f"Each person should pay: ${tip_calc}")
